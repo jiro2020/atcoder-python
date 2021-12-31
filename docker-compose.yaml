@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: atcoder-python
+    volumes: 
+      - ./problems:/home/dev/problems
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"
