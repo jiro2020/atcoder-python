@@ -2,5 +2,7 @@
   "dockerComposeFile": "../docker-compose.yaml",
   "service": "dev",
   "workspaceFolder": "/home/dev/problems",
-  "shutdownAction": "stopCompose"
+  "shutdownAction": "stopCompose",
+  "extensions": ["ms-python.python", "ms-python.vscode-pylance",
+                "oderwat.indent-rainbow", "kevinrose.vsc-python-indent","medo64.render-crlf"]
 }
