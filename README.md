@@ -8,8 +8,7 @@
    - Remote - Containers (ms-vscode-remote.remote-containers) 
 - AtCoder との連携は https://github.com/kyuridenamida/atcoder-tools を利用します
 ## 使用方法
-1. `docker-compose up [--build]` で開発コンテナを起動します
-2. VS Code の [Remote Explorer] から開発コンテナに attach します
+1. VS Code の Command Palette [Ctrl+Shift+p] で `Reopen in Contaier` で開発コンテナ起動と attach できます
 ## フォルダ構成
 - problems: このフォルダで `atcoder-tools gen {contest_id}` を実施し、問題をダウンロードします
 - answer: 解き終わった問題を `{problem_id}_main.py` にリネームして保存します
